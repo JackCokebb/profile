@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+.container{
+    padding: 20px;
+}
+#myName{
+    display: inline-block;
+    color: goldenrod;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+#myName:hover{
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+    -ms-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+}
+#teddyImg{
+    max-height: 400px;
+}
+#subtitle{
+    font-style: italic;
+    padding-left: 10px;
+}
+#img-box, #personal-info, #link-box, #learning-box{
+    margin-bottom: 2rem;
+}
+
+
+/* 
+ref from:
+http://ielselog.blogspot.com/2013/08/css-hover-2.html 
+*/
+
